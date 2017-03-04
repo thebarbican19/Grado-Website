@@ -1,0 +1,74 @@
+<strong>Why the name Grado?</strong>
+Grado in Italian means Degrees. As everything in Grado is rated on an simple incremental value of 'likes' or how hot something is this seems quite fitting.
+<p><p>
+<strong>What should I share?</strong>
+Grado is designed for sharing all types of great content. This includes and websites, blogs, articles, videos, pictures and even music (via Soundcloud). You could even just share a quote or a joke if you wanted.
+<p>
+<strong>What shouldn't I share?</strong>
+Grado is not a social network. Every post is public, so keep those angry rants and selfies on Facebook. If it's something you think a stranger might like then post it!
+<p>
+<strong>How do I share a content</strong>
+To share content open the compose view in the Grado app. Then you have two choices, share a URL. To do this simply paste in any URL. Alternatively you can add an image from your camera roll, or by capturing a new image with the camera.<p>Once you have done this you can add a comment (up to 200 characters, excluding the length of the URL) to give it some context by just typing into the same text box. Hit share and that's it! We handle all the parsing and formatting so don't worry about that!
+<p>
+<strong>Who can see what I post?</strong>
+In short, potentially every Grado user! So If you don’t want people to see something don’t post it on Grado. But if you do you can delete it by navigating to the post in question > options > delete. 
+<p>
+<strong>Is there a limit to how many times I can post something?</strong>
+You can post as much as you like. However, you cannot post the same thing multiple times. Nobody likes spamming.
+<p>
+<strong>What happens if I post racist, homophobic, fanatical or offensive/aggressive content?</strong>
+We are very strict on this. If we deem any posts to match this criteria we will remove it without warning, we may even suspend user accounts depending on the contents of the posts. You are fully responsible for what you post. This type of content is also violating our Terms and Conditions so make sure you read them prior to posting.
+<p>
+<strong>What happens if I post content that violates copyright?</strong>
+If you post anything that you do not own or that violates copyright it will be removed without warning. If you continue to post copyright content we will suspend your account. 
+<p>
+<strong>How do I follow, or add some one as a 'friend'?</strong>
+The basic concept for Grado is that content comes first. With this being the case we wanted to build something that was content driven rather than just another social network. This means you cannot 'follow' or 'friend' someone, only like their individual posts. 
+<p>
+<strong>What happens if my post gets ‘flagged’ or if I flag another users post.</strong>
+Anytime a post is flagged our team is notified and we will determine if it violates any of our guidelines. If if does it will be removed without warning. However if a post is flagged a significant number of times in a certain time period it will be removed automatically and is not subject to review. If your post is removed and you would like to contest it please email us at support@gradoapp.com
+<p>
+<strong>Does Grado require an internet connection?</strong>
+Grado does requires require an internet connection to signup and view new content, however once content is loaded into Grado it can be viewed offline. This excludes music and videos. 
+<p>
+<strong>Why does Grado require my location? </strong>
+You do not need to allow location privileges on your device to use Grado, however if you do choose to share you location it means we can show you posts for your local community (in our nearby timeline). If you post content will show up in the nearby section for people in your local area, meaning potentially more engagement.again will be seen by the 
+<p>
+<strong>What should I do if I find a bug in the app?</strong>
+If you are unfortunate enough to find a bug then please contact us using the support form in the app or by emailing us at support@gradoapp.com
+<p>
+<strong>Does Grado cost anything to use?</strong>
+Grado is and always will be 100% free to use forever. We have no plans to implement a paid model in the future. 
+<p>
+<strong>Is, and if not when will Grado be supported on my device?</strong>
+Grado is currently only on iOS. Before 2017 we will be working on both an android version and a responsive website meaning if you don’t have an iOS or Android device you will still be able to use Grado via your browser. 
+<p>
+<strong>What happens to my pictures if I share them? Do they still belong to me?</strong>
+Any personal uploaded images from your device are stored securely on our servers. These images still belong to you and at any time you can request them to be removed from our servers. 
+<p>
+<strong>Who can signup to Grado?</strong>
+Anybody with an email address can signup to Grado, were not prejudice! The app is available in every country but currently we only support the English language. As time goes on we will add support for multiple languages. If you want to help us speed up the process and localise for your country then please email us at info@gradoapp.com  
+<p>
+<strong>How do I create an account</strong>
+You can create an account simply by downloading our app and hitting the signup button. Easy!
+<p>
+<strong>Why do I need to signup</strong>
+If you create a Grado account you will be able to not only post as much content as you like when ever you want but you will also be able to like and comment on posts plus much much more! It's totally worth it!
+<p>
+<strong>How do I deactivate/delete my account?</strong>
+If you want to completely remove your account from our system please email us at accounts@gradoapp.com. This process may take up to 2 working days to process.
+<p>
+<strong>Can I change my email address, password after registering?</strong>
+Yes! You can update your personal preferences in the setting section of the app. Alternatively we can do it for you if you email us at accounts@gradoapp.com.
+<p>
+<strong>Are my personal details secure?</strong>
+Keeping your information secure is our highest priority. We are constantly updating our system sure it's secure from hackers.
+<p>
+<strong>How are my personal details used?</strong>
+We may use your details to notify you of events in Grado but you can unsubscribe at any time from any kind of notification. Other than that we will not use your personal details with out your approval, and we will certainly not share any information with 3rd party's.
+<p>
+<strong>What are 'lists'?</strong>
+Lists are a way for you to save and categorise content on Grado. You can create as many lists as you like and you can add anything. Lists could be anything from a collection of recepies to a playlist of cat videos. It's up to you how you use lists.
+<p>
+<strong>How do I add a new list?</strong>
+You can add new lists by either tapping the list icon in the compose window, when sharing content. Or by tapping the list icon in the top navigation when browsing content. This will launch the creator window, here you can add a title (required) and a description (optional).

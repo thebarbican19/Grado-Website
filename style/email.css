@@ -1,0 +1,182 @@
+@font-face {
+	font-family: ventifont_bold;
+	src: url('http://gradoapp.com/assets/VentiCF-Bold.otf');
+	
+}
+
+@font-face {
+	font-family: ventifont_demibold;
+	src: url('http://gradoapp.com/assets/VentiCF-DemiBold.otf');
+	
+}
+
+@font-face {
+	font-family: ventifont_medium;
+	src: url('http://gradoapp.com/assets/VentiCF-Medium.otf');
+	
+}
+
+@font-face {
+	font-family: ventifont_light;
+	src: url('http://gradoapp.com/assets/VentiCF-Light.otf');
+	
+}
+
+
+@font-face {
+	font-family: ventifont_quote;
+	src: url('http://gradoapp.com/assets/VentiCF-MediumOblique.otf');
+	
+}
+
+
+@font-face {
+	font-family: otherfont_code;
+	src: url('http://gradoapp.com/assets/Menlo.ttc');
+	
+}
+
+
+body {
+	background-color:white;
+	margin:0px;
+	font-family: ventifont_medium;
+	font-size:15px;
+	overflow-x:hidden;
+	color:rgba(70, 83, 96, 0.7);
+	padding:0px;
+	
+}
+
+h1 {
+	color:#465360;
+	margin-bottom:10px;
+	margin-top:15px;
+	font-size:16px;
+	font-family:ventifont_demibold;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	
+}
+
+a {
+	color:#465360;
+	
+}
+
+strong {
+	color:#465360;
+	font-family: ventifont_bold;
+	
+}
+
+img {
+	width:100%;
+	
+}
+
+p {
+	margin-top:30px;
+	
+}
+
+.logo {
+	width:40px;
+	margin-top:35px;
+	
+}
+
+.header {
+	text-align:center;
+	background-color:#36D392;
+	width:100%;
+	height:120px;
+	background: rgb(54,211,181);
+	background: -moz-linear-gradient(45deg, rgba(54,211,181,1) 0%, rgba(54,211,146,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgba(54,211,181,1) 0%,rgba(54,211,146,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(54,211,181,1) 0%,rgba(54,211,146,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36d3b5', endColorstr='#36d392',GradientType=1); /* IE6-9 fallback on horizontal gradient */
+	z-index:5;
+	
+}
+
+.container {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom:45px;		
+	width:90%;
+	max-width:700px;
+	text-align:left;
+	
+	
+}
+
+.image {
+	border-radius:5px;
+	width:100%;
+	height:auto;
+	max-height:300px;
+	overflow:hidden;
+	margin-bottom:35px;
+	
+}
+
+.action {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:45px;
+	margin-bottom:65px;		
+	cursor:pointer;
+	background-color:#36D38F;
+	color:white;
+	font-family:ventifont_demibold;
+	text-align:center;
+	padding-top:12px;
+	padding-bottom:8px;
+	padding-left:18px;
+	padding-right:18px;			
+	font-size:14px;
+	border-style:none;
+	border-radius:3px;
+	outline:none;
+	text-transform:uppercase;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow:0px 1px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0px 1px 3px rgba(0, 0, 0, 0.3);
+	text-decoration:none;
+	
+}
+
+.footer {
+	border-top:1px solid #ECECEC;
+	background-color:rgba(252, 252, 252, 1);
+	padding-top:20px;
+	padding-bottom:25px;
+	color:#465360;
+	font-size:12px;
+	width:100%;
+	font-family:ventifont_medium;
+	color:rgba(70, 83, 96, 0.7);
+		
+}
+
+.social {
+	width:35px;
+	margin-left:25px;
+	margin-right:25px;
+	margin-bottom:10px;	
+	border-radius:4px;
+	
+}
+
+.sender {
+	width:400px; 
+	height:40px; 
+	position:relative; 
+	display:inline-block; 
+	vertical-align:middle;
+}
+	
+
+

@@ -1,0 +1,7 @@
+User-Agent: *
+
+Allow: /website/*
+Disallow: /website/etc/*
+Disallow: /api/*
+Disallow: /website/404.php
+
