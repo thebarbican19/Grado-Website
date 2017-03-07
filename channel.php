@@ -1,28 +1,27 @@
 <?
 	
+include 'lib/callback.php';
+
 $channel_id = str_replace("/", "", $_SERVER[REQUEST_URI]);
 $channel_api = 'https://gradoapp.com/api/v1/channel/channel.php?query=' . $channel_id . '';
-$channel_apiheaders = array('http'=>array('method'=>"GET", 'header'=>"Accept-language:en\r\n" . "gdappkey:app_WWiPnda8123nshd810271sjspa887s"));
-$channel_apicontact = stream_context_create($channel_apiheaders);
-$channel_output = json_decode(file_get_contents($channel_api, false, $channel_apicontact)); 
-$channel_code = (int)$channel_output[0]->error_code;
-//if ($channel_code != 200) header("Location: http://gradoapp.com/404.php");
-
-print_r($channel_output);	
+$channel_output = api_callback($channel_api ,'GET' , '');
 	
+//if ((int)$channel_output[0]->error_code != 200) header('Location: http://gradoapp.com/404');
+
 ?>
 <html>
 <head>
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<script src="js/transit.js"></script>	
 	<script src="js/cookies.js"></script>
 	<script src="js/mobiledetection.js"></script>
 	<script src="js/navigation.js"></script>
 	<script src="js/mailing.js"></script>
 	<script src="js/intro.js"></script>
-	
+	<script src="js/channel.js"></script>
+		
 	<?
 	
 	$channel_title = $channel_output[0]->output->title;
@@ -32,6 +31,7 @@ print_r($channel_output);
 	$channel_keywords = implode(",", $channel_output[0]->output->owner->tags) . ",grado";
 	$channel_header = $channel_output[0]->output->header;
 	$channel_id = $channel_output[0]->output->id;
+	$channel_subscribed = (int)$channel_output[0]->output->subscribed;	
 	$channel_description = explode(" ", $channel_output[0]->output->description);
 	if (count($stream_description) > 155) {
 		$channel_description = array_splice($channel_description, 0, 155);
@@ -39,6 +39,9 @@ print_r($channel_output);
 		
 	}
 	else $channel_description = implode(" ", $channel_description);
+	
+	if ($channel_subscribed == 1) $channel_subscribed_action = "subscribed";
+	else $channel_subscribed_action = "subscribe";
 			
 	echo '<title>' . ucfirst($channel_title) . ' | Grado</title>';
 	echo '<meta name="description" content="' . $channel_description . '"/>';
@@ -56,8 +59,8 @@ print_r($channel_output);
 	echo '<meta name="apple-itunes-app" content="app-id=1090719110, affiliate-data=myAffiliateData, app-argument=gradoapp://channel?id=' . $channel_id . '&name=' . $channel_title . '">';
 	echo '<meta name="google-site-verification" content="z5mJLjVGtEe5qzCefW1pamxI7H46u19n4XnxEzgl1AU" />';
 	
-	echo '<link rel="canonical" href="http://gradoapp.com/' . $channel_title . '"/>';
-	echo '<link rel="icon" href="http://gradoapp.com/assets/favicon.ico">';
+	echo '<link rel="canonical" href="https://gradoapp.com/' . $channel_title . '"/>';
+	echo '<link rel="icon" href="https://gradoapp.com/assets/favicon.ico">';
 		
 	echo '<meta name="twitter:app:id:iphone" content="1090719110"/>';
 	echo '<meta name="twitter:app:name:iphone" content="Grado"/>';
@@ -95,17 +98,26 @@ print_r($channel_output);
 				<div class="channel-container">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div class="channel-header">
-							<? if (getimagesize($channel_header) > 0) echo '<img src="' . $channel_header . '" alt="' . $channel_title . ' channel on grado" height="100%">'; ?>
+							<? if (getimagesize($channel_header) > 0) echo '<img src="' . $channel_header . '" alt="' . $channel_title . ' channel on grado" width="100%" height="100%" style="object-fit:cover;">'; ?>
 							<div class="team-overlay">
-								<? echo '<div class="channel-name">' . $channel_title . '</div>'; ?>
-								<? echo '<div class="channel-description">' . $channel_description . '</div>'; ?>
+								<div style="width:500px; float:left;">
+									<? echo '<div class="channel-name">' . $channel_title . '</div>'; ?>
+									<? echo '<div class="channel-description">' . $channel_description . '</div>'; ?>
+								</div>
+								<div style="width:80px; float:right;">			
+									<? echo '<div class="channel-subscribe" id="channel-subscribe" key="' . $channel_id . '">' . $channel_subscribed_action . '</div>'; ?>
+								</div>
 							</div>
 						</div>
 					</div>		
 				</div>
 				<div class="channel-error">				
-					<h2>Coming Soon</h2>
-					Channels are awesome communities/categories/topics you can follow and subscribe too! <p>Unfornatualey you only access channels in our iOS currently.
+					<? 
+					
+					echo '<h5>Nothing has been posted in ' . $channel_title . '</h5>'; 
+
+					?>
+				
 					
 				</div>
 			</div>

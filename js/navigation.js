@@ -1,7 +1,7 @@
 $(document).ready(function() {	
 	var page = window.location.pathname.toString();	
 	var header = $(".section-header");
-	if (!isMobile.any) {				
+	if (!isMobile.any) {
 		$(window).scroll(function(){
 			var scroll = $(window).scrollTop();
 			if (scroll > 20) {
@@ -79,8 +79,13 @@ $(document).ready(function() {
 	
 	$(".navigation-action").each(function() {
 		$(this).click(function() {
-			$('html,body').animate({scrollTop: $("#section-mailing").offset().top - 230});
-			togglemenu();
+			var button = $(this).html();
+			if (button == "dashboard") location.href = 'http://gradoapp.com/auth/index';
+			else {
+				$('html,body').animate({scrollTop: $("#section-mailing").offset().top - 230});
+				togglemenu();
+				
+			}
 			
 		});
 

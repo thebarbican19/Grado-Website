@@ -28,7 +28,7 @@ $(document).ready(function() {
 function widgetsubmit(input, scroll) {
 	var inputmin = 20;
 	var inputwords = input.split(' ');
-	var inputparams = {"input":input};
+	var inputparams = {"text":input};
 			
 	if (inputwords.length > inputmin) {
 		inputloading = 1;
@@ -38,6 +38,9 @@ function widgetsubmit(input, scroll) {
 			dataType:'json',
 			data: JSON.stringify(inputparams),		
 				success:function(result, status, xhr) {		
+					
+					console.log(result);
+					
 				var requeststatus = result[0].status;
 				var requesterrcode = result[0].error_code;
 				var requesttags = result[0].output.topic_tags;
@@ -80,7 +83,7 @@ function widgetsubmit(input, scroll) {
     		},
    			error:function(xhr,status,error){
 				var requestcode = xhr.status;
-				
+				console.log(error);
 				$("#data-container").html("<h3>Whoops!</h3>An error occured (" + status + ")");
 				
 				inputloading = 0;	
