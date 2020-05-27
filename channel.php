@@ -3,7 +3,7 @@
 include 'lib/callback.php';
 
 $channel_id = str_replace("/", "", $_SERVER[REQUEST_URI]);
-$channel_api = 'https://gradoapp.com/api/v1/channel/channel.php?query=' . $channel_id . '';
+$channel_api = 'https://grado-website.herokuapp.com/api/v1/channel/channel.php?query=' . $channel_id . '';
 $channel_output = api_callback($channel_api ,'GET' , '');
 	
 //if ((int)$channel_output[0]->error_code != 200) header('Location: http://gradoapp.com/404');
@@ -59,8 +59,8 @@ $channel_output = api_callback($channel_api ,'GET' , '');
 	echo '<meta name="apple-itunes-app" content="app-id=1090719110, affiliate-data=myAffiliateData, app-argument=gradoapp://channel?id=' . $channel_id . '&name=' . $channel_title . '">';
 	echo '<meta name="google-site-verification" content="z5mJLjVGtEe5qzCefW1pamxI7H46u19n4XnxEzgl1AU" />';
 	
-	echo '<link rel="canonical" href="https://gradoapp.com/' . $channel_title . '"/>';
-	echo '<link rel="icon" href="https://gradoapp.com/assets/favicon.ico">';
+	echo '<link rel="canonical" href="https://grado-website.herokuapp.com/' . $channel_title . '"/>';
+	echo '<link rel="icon" href="https://grado-website.herokuapp.com/assets/favicon.ico">';
 		
 	echo '<meta name="twitter:app:id:iphone" content="1090719110"/>';
 	echo '<meta name="twitter:app:name:iphone" content="Grado"/>';

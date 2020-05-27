@@ -69,7 +69,7 @@ function messagesend() {
 		else if (input_verifyed == true) {
 			input_loading = true;
 			$.ajax({
-	  			url: "https://gradoapp.com/etc/feedback.php",
+	  			url: "https://grado-website.herokuapp.com/etc/feedback.php",
 				type: "POST",
 				dataType:'json',
 				data: JSON.stringify(input_params),		

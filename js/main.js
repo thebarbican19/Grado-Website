@@ -97,7 +97,7 @@ $(document).ready(function() {
 			var id = $(this).attr("id");
 			if (id == "community-image-1") {
 				$(this).stop().animate({opacity:0.0}, 100, function() {
-					$(this).attr("src", "https://gradoapp.com/assets/tile_" + image + "_1.png");
+					$(this).attr("src", "https://grado-website.herokuapp.com/assets/tile_" + image + "_1.png");
 					$(this).attr("alt", image + " community tile");	
 					$(this).animate({"marginLeft":animate_right_1, "marginTop":animate_top_1, opacity:1.0}, 600, "easeInOutBack");
 			
@@ -106,7 +106,7 @@ $(document).ready(function() {
 			}
 			else if (id == "community-image-2") {
 				$(this).stop().animate({opacity:0.0}, 100, function() {
-					$(this).attr("src", "https://gradoapp.com/assets/tile_" + image + "_2.png");
+					$(this).attr("src", "https://grado-website.herokuapp.com/assets/tile_" + image + "_2.png");
 					$(this).attr("alt", image + " community tile");				
 					$(this).animate({"marginLeft":animate_right_2, "marginTop":animate_top_2, opacity:1.0}, 600, "easeInOutBack");
 					

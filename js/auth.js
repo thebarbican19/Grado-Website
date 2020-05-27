@@ -34,7 +34,7 @@ $(document).ready(function() {
 				
 			}	
 			else {
-				var requesturl = "https://gradoapp.com/api/v1//user/signup.php";
+				var requesturl = "https://grado-website.herokuapp.com/api/v1//user/signup.php";
 				var requestparams = {"username":requestusername, "email":requestemail, "password":requestpassword}	
 				
 				authenticate(requesturl, requestparams);
@@ -44,7 +44,7 @@ $(document).ready(function() {
 			
 		}
 		else if (requesttype == "login") {
-			var requesturl = "https://gradoapp.com/api/v1/user/authenticate.php";
+			var requesturl = "https://grado-website.herokuapp.com/api/v1/user/authenticate.php";
 			var requestparams = {"email":requestemail, "password":requestpassword}	
 			
 			authenticate(requesturl, requestparams);
@@ -110,7 +110,7 @@ function authenticate(url, data) {
 				Cookies.set('gd_bearer', requesttok, {expires:requestexpires, secure: true});
 				Cookies.set('gd_user', requestuser, {expires:requestexpires, secure: true});
 									
-				location.href = 'https://gradoapp.com/auth/index';
+				location.href = 'https://grado-website.herokuapp.com/auth/index';
 				
 			} 
 			else if (requesterrcode == 409) {

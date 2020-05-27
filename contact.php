@@ -51,7 +51,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	
 	<link href="https://plus.google.com/b/113134776986953629476" rel="publisher" />    
-	<link rel="icon" href="https://gradoapp.com/assets/favicon.ico">
+	<link rel="icon" href="https://grado-website.herokuapp.com/assets/favicon.ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="style/main.css" type="text/css" charset="utf-8"/>
 	<link rel="stylesheet" href="style/gradtag.css" type="text/css" charset="utf-8"/>

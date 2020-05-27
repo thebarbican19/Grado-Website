@@ -18,7 +18,7 @@
 				else $(this).find("#faq-reveal").html('[click to reveal]');
 				
 				question_count += 1;
-				$("#faq-summary").html("There are currently <strong>" + question_count + "</strong> questions and answers, but we might have missed something. If you cannot find the answer to your question please <a href='https://gradoapp.com/contact?t=question' alt='contact us'>contact us</a> and we will be sure to help you out!");
+				$("#faq-summary").html("There are currently <strong>" + question_count + "</strong> questions and answers, but we might have missed something. If you cannot find the answer to your question please <a href='https://grado-website.herokuapp.com/contact?t=question' alt='contact us'>contact us</a> and we will be sure to help you out!");
 				
 				$(this).click(function() {
 					if ($(this).find("#faq-text").is(":hidden")) {
@@ -69,12 +69,12 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Grado - FAQ's"/>
 	<meta name="twitter:description" content="Frequently asked questions about Grado, the app and everything else!"/>
-	<meta name="twitter:image" content="https://gradoapp.com/website/assets/web_icon.png">
+	<meta name="twitter:image" content="https://grado-website.herokuapp.com/website/assets/web_icon.png">
 		
 	<meta property="og:type" content="product" />
 	<meta property="og:title" content="Grado - FAQ's"/>
 	<meta property="og:description" content="Frequently asked questions about Grado, the app and everything else!"/>
-	<meta property="og:image" content="https://gradoapp.com/website/assets/web_icon.png" />
+	<meta property="og:image" content="https://grado-website.herokuapp.com/website/assets/web_icon.png" />
 	<meta property="og:site_name" content="Grado"/>
     <meta property="al:ios:app_store_id" content="1090719110"/>
     <meta property="al:ios:app_name" content="Grado" />
@@ -83,7 +83,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	
 	<link href="https://plus.google.com/b/113134776986953629476" rel="publisher" />    
-	<link rel="icon" href="https://gradoapp.com/assets/favicon.ico">
+	<link rel="icon" href="https://grado-website.herokuapp.com/assets/favicon.ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="style/main.css" type="text/css" charset="utf-8"/>
 	

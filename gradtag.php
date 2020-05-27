@@ -37,12 +37,12 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Gradtag - Tag Generator WebApp"/>
 	<meta name="twitter:description" content="The rich text tag generator algorithm used to power Grado, now available for bloggers and developers"/>
-	<meta name="twitter:image" content="https://gradoapp.com/website/assets/web_icon.png" />
+	<meta name="twitter:image" content="https://grado-website.herokuapp.com/website/assets/web_icon.png" />
 			
 	<meta property="og:type" content="product" />
 	<meta property="og:title" content="Gradtag - Tag Generator WebApp"/>
 	<meta property="og:description" content="The rich text tag generator algorithm used to power Grado, now available for bloggers and developers"/>
-	<meta property="og:image" content="https://gradoapp.com/website/assets/web_icon.png" />
+	<meta property="og:image" content="https://grado-website.herokuapp.com/website/assets/web_icon.png" />
 	<meta property="og:site_name" content="Grado"/>
 	
     <meta property="al:ios:app_store_id" content="1090719110"/>
@@ -52,7 +52,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	
 	<link href="https://plus.google.com/b/113134776986953629476" rel="publisher" />    
-	<link rel="icon" href="https://gradoapp.com/assets/favicon.ico">
+	<link rel="icon" href="https://grado-website.herokuapp.com/assets/favicon.ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="style/main.css" type="text/css" charset="utf-8"/>
 	<link rel="stylesheet" href="style/gradtag.css" type="text/css" charset="utf-8"/>
@@ -109,11 +109,11 @@
 					</div>
 					<div class="col-sm-4 col-md-4 col-lg-4 hidden-xs description-cell" align="center">
 						<h2>the solution</h2>
-						To address this issue we developed a system we call <a href="https://gradoapp.com/gradtag" alt="gradtag webapp for generation SEO tags" class="description-link">gradtag</a>. This uses a dictionary of over 15,000 words and lots of magic code and <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" alt="machine learning wiki" class="description-link">machine-learning</a> to generate an array tags in just a few miliseconds. With these tags we can then cataogrise the data easiliy. Cool right?
+						To address this issue we developed a system we call <a href="https://grado-website.herokuapp.com/gradtag" alt="gradtag webapp for generation SEO tags" class="description-link">gradtag</a>. This uses a dictionary of over 15,000 words and lots of magic code and <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" alt="machine learning wiki" class="description-link">machine-learning</a> to generate an array tags in just a few miliseconds. With these tags we can then cataogrise the data easiliy. Cool right?
 					</div>
 					<div class="col-sm-4 col-md-4 col-lg-4 hidden-xs description-cell" align="right">
 						<h2>the widget</h2>
-						The only way to really test something like this is to use real world scenarios and live data, which is why we created this awesome free widget! <p><p>If you have any questions about this widget, or anything Grado related the drop us a <a href="https://gradoapp.com/contact"  alt="grado contact us" class="description-link">message</a>, we would love to hear from you!
+						The only way to really test something like this is to use real world scenarios and live data, which is why we created this awesome free widget! <p><p>If you have any questions about this widget, or anything Grado related the drop us a <a href="https://grado-website.herokuapp.com/contact"  alt="grado contact us" class="description-link">message</a>, we would love to hear from you!
 					</div>
 					
 					<div class="col-xs-12 visible-xs" align="center">
@@ -123,12 +123,12 @@
 						</div>
 						<div class="description-cell">
 							<h2>the solution</h2>
-							To address this issue we developed a system we call <a href="https://gradoapp.com/gradtag" alt="gradtag webapp for generation SEO tags" class="description-link">gradtag</a>. This uses a dictionary of over 15,000 words and lots of magic code and <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" alt="machine learning wiki" class="description-link">machine-learning</a> to generate an array tags in just a few miliseconds. With these tags we can then cataogrise the data easiliy. Cool right?<p>
+							To address this issue we developed a system we call <a href="https://grado-website.herokuapp.com/gradtag" alt="gradtag webapp for generation SEO tags" class="description-link">gradtag</a>. This uses a dictionary of over 15,000 words and lots of magic code and <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" alt="machine learning wiki" class="description-link">machine-learning</a> to generate an array tags in just a few miliseconds. With these tags we can then cataogrise the data easiliy. Cool right?<p>
 								
 						</div>
 						<div class="description-cell">
 							<h2>the widget</h2>
-							The only way to really test something like this is to use real world scenarios and live data, which is why we created this awesome free widget! <p><p>If you have any questions about this widget, or anything Grado related the drop us a <a href="https://gradoapp.com/contact"  alt="grado contact us" class="description-link">message</a>, we would love to hear from you!
+							The only way to really test something like this is to use real world scenarios and live data, which is why we created this awesome free widget! <p><p>If you have any questions about this widget, or anything Grado related the drop us a <a href="https://grado-website.herokuapp.com/contact"  alt="grado contact us" class="description-link">message</a>, we would love to hear from you!
 						</div>
 					</div>
 				</div>

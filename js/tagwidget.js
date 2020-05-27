@@ -33,7 +33,7 @@ function widgetsubmit(input, scroll) {
 	if (inputwords.length > inputmin) {
 		inputloading = 1;
 		$.ajax({
-  			url: "https://gradoapp.com/etc/keywords.php",
+  			url: "https://grado-website.herokuapp.com/etc/keywords.php",
 			type: "POST",
 			dataType:'json',
 			data: JSON.stringify(inputparams),		

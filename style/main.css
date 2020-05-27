@@ -1,38 +1,38 @@
 @font-face {
 	font-family: ventifont_bold;
-	src: url('https://gradoapp.com/assets/VentiCF-Bold.otf');
+	src: url('https://grado-website.herokuapp.com/assets/VentiCF-Bold.otf');
 	
 }
 
 @font-face {
 	font-family: ventifont_demibold;
-	src: url('https://gradoapp.com/assets/VentiCF-DemiBold.otf');
+	src: url('https://grado-website.herokuapp.com/assets/VentiCF-DemiBold.otf');
 	
 }
 
 @font-face {
 	font-family: ventifont_medium;
-	src: url('https://gradoapp.com/assets/VentiCF-Medium.otf');
+	src: url('https://grado-website.herokuapp.com/assets/VentiCF-Medium.otf');
 	
 }
 
 @font-face {
 	font-family: ventifont_light;
-	src: url('https://gradoapp.com/assets/VentiCF-Light.otf');
+	src: url('https://grado-website.herokuapp.com/assets/VentiCF-Light.otf');
 	
 }
 
 
 @font-face {
 	font-family: ventifont_quote;
-	src: url('https://gradoapp.com/assets/VentiCF-MediumOblique.otf');
+	src: url('https://grado-website.herokuapp.com/assets/VentiCF-MediumOblique.otf');
 	
 }
 
 
 @font-face {
 	font-family: otherfont_code;
-	src: url('https://gradoapp.com/assets/Menlo.ttc');
+	src: url('https://grado-website.herokuapp.com/assets/Menlo.ttc');
 	
 }
 

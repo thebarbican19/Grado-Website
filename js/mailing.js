@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 function mailingpost(email) {
 	$.ajax({
-		url: "https://gradoapp.com/api/v1/user/mailing.php?email=" + email + "&list=news",
+		url: "https://grado-website.herokuapp.com/api/v1/user/mailing.php?email=" + email + "&list=news",
 		headers: {"gdappkey": "app_WWiPnda8123nshd810271sjspa887s"},
         type: "GET",
 		dataType:'json',

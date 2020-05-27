@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 function subscribe_channel(channel, unsubscribe) {	
 	var apibearer = Cookies.get('gd_bearer');		
-	var apiurl = "https://gradoapp.com/api/v1/channel/subscribe?channel=" + channel;
+	var apiurl = "https://grado-website.herokuapp.com/api/v1/channel/subscribe?channel=" + channel;
 	var apiparams = {"email":"1", "channel":channel};
 	var apiheaders = {"gdappkey":"app_WWiPnda8123nshd810271sjspa887s", "gdbearer":apibearer};
 	if (unsubscribe == true) var apimethod = "DELETE";
@@ -67,7 +67,7 @@ function subscribe_channel(channel, unsubscribe) {
 		},
 		error:function(xhr,status,error){
 			var requestcode = xhr.status;
-			if (requestcode == 401) location.href = 'https://gradoapp.com/signup?';
+			if (requestcode == 401) location.href = 'https://grado-website.herokuapp.com/signup?';
 			
 		}	
 		

@@ -12,13 +12,13 @@
 <div class="row">
 	<div class="col-sm-12 col-md-12 col-lg-12 hidden-xs" align="center" id="navigation" class="section-navigation">
 		<div class="col-sm-3 col-md-3 col-lg-3" align="left">
-			<a href="https://gradoapp.com/" alt="grado app home"><img id="navigation-logo" class="navigation-logo" src="https://gradoapp.com/website/assets/logo_white.png" alt="grado logo"></a>
+			<a href="https://grado-website.herokuapp.com/" alt="grado app home"><img id="navigation-logo" class="navigation-logo" src="https://grado-website.herokuapp.com/website/assets/logo_white.png" alt="grado logo"></a>
 			
 		</div>
 		<div class="col-sm-9 col-md-9 col-lg-9" align="right">
 			<span id="navigation-items">
-				<a href="https://gradoapp.com/gradtag" alt"gradtag tagging widget" class="navigation-button">gradtag</a>
-				<a href="https://gradoapp.com/contact" alt"contact us" class="navigation-button">contact us</a>
+				<a href="https://grado-website.herokuapp.com/gradtag" alt"gradtag tagging widget" class="navigation-button">gradtag</a>
+				<a href="https://grado-website.herokuapp.com/contact" alt"contact us" class="navigation-button">contact us</a>
 				
 			</span>
 			<div class="navigation-action" id="navigation-action" style="margin-left:10px;">get the app</div>
@@ -26,7 +26,7 @@
 	</div>
 	<div class="col-xs-12 visible-xs" align="center" id="navigation-mobile">
 		<div class="col-xs-6" align="left">
-			<a href="https://gradoapp.com/" alt="grado app home"><img id="navigation-logo-mob" class="navigation-logo" src="" alt="grado icon"></a>
+			<a href="https://grado-website.herokuapp.com/" alt="grado app home"><img id="navigation-logo-mob" class="navigation-logo" src="" alt="grado icon"></a>
 			
 		</div>
 		<div class="col-xs-6" align="right">

@@ -3,7 +3,7 @@
 include '../lib/callback.php';
 
 $user_token = $_COOKIE['gd_bearer'];
-$user_api = 'https://gradoapp.com/api/v1/user/me.php';
+$user_api = 'https://grado-website.herokuapp.com/api/v1/user/me.php';
 $user_output = api_callback($user_api ,'GET' , '', '');
 $user_error = (int)$user_output[0]->error_code;
 $user_type = $user_output[0]->user->type;
@@ -14,7 +14,7 @@ if ($user_type == "admin" || $user_type == "developer") $action_button = "dashbo
 else $action_button = "get the app";
 
 if ($user_error == 401 || $user_error == 400 || $user_error == 371 || empty($user_token) || $user_type != "admin") {
-	$auth_url = "https://gradoapp.com/api/v1/user/authenticate.php";
+	$auth_url = "https://grado-website.herokuapp.com/api/v1/user/authenticate.php";
 	$auth_destroy = api_callback($auth_url ,'DELETE' , '', '');
 	if (auth_destroy[0]->error_code == 200) unset($_COOKIE['gd_bearer']);
 	
@@ -41,7 +41,7 @@ if ($user_error == 401 || $user_error == 400 || $user_error == 371 || empty($use
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	
 	<link href="https://plus.google.com/b/113134776986953629476" rel="publisher" />    
-	<link rel="icon" href="https://gradoapp.com/assets/favicon.ico">
+	<link rel="icon" href="https://grado-website.herokuapp.com/assets/favicon.ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="../style/main.css" type="text/css" charset="utf-8"/>
 	

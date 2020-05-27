@@ -6,7 +6,7 @@ $(document).ready(function() {
 			var scroll = $(window).scrollTop();
 			if (scroll > 20) {
 				$("#navigation-action").switchClass("navigation-action", "navigation-action-white", 20, "easeInOutQuad");
-				$("#navigation-logo").attr('src', 'https://gradoapp.com/assets/logo_green.png');
+				$("#navigation-logo").attr('src', 'https://grado-website.herokuapp.com/assets/logo_green.png');
 				$("#navigation-mobile").css('box-shadow', '0px 0px 3px rgba(70, 83, 96, 0.3)');		
 				$("#navigation").css('box-shadow', '0px 0px 3px rgba(70, 83, 96, 0.3)');		
 				$("#navigation").stop().animate({
@@ -22,7 +22,7 @@ $(document).ready(function() {
 			else {
 				if (header.length > 0) {
 					$("#navigation-action").switchClass("navigation-action-white", "navigation-action", 20, "easeInOutQuad");
-					$("#navigation-logo").attr('src', 'https://gradoapp.com/assets/logo_white.png');
+					$("#navigation-logo").attr('src', 'https://grado-website.herokuapp.com/assets/logo_white.png');
 					$("#navigation-mobile").css('box-shadow', '0px 0px 3px rgba(70, 83, 96, 0.0)');
 					$("#navigation").css('box-shadow', '0px 0px 3px rgba(70, 83, 96, 0.0)');	
 					
@@ -48,14 +48,14 @@ $(document).ready(function() {
 		$("#navigation").css('box-shadow', '0px 0px 3px rgba(70, 83, 96, 0.0)');	
 		$("#navigation").css('background-color', 'transparent');
 		$("#navigation-logo").each(function() {
-			$(this).attr('src', 'https://gradoapp.com/assets/logo_white.png');
+			$(this).attr('src', 'https://grado-website.herokuapp.com/assets/logo_white.png');
 			
 		});
 		
 	}
 	else {
 		$("#navigation-action").switchClass("navigation-action", "navigation-action-white", 0, "easeInOutQuad");
-		$("#navigation-logo").attr('src', 'https://gradoapp.com/assets/logo_green.png');
+		$("#navigation-logo").attr('src', 'https://grado-website.herokuapp.com/assets/logo_green.png');
 		$("#navigation").css('box-shadow', '0px 0px 3px rgba(70, 83, 96, 0.3)');		
 		$("#navigation").stop().animate({
 			backgroundColor:'white',
@@ -69,8 +69,8 @@ $(document).ready(function() {
 	}
 	
 	$("#navigation-mobile").css('box-shadow', '0px 0px 3px rgba(70, 83, 96, 0.0)');
-	$("#navigation-reveal").attr('src', 'https://gradoapp.com/assets/icon_menu.png');	
-	$("#navigation-logo-mob").attr('src', 'https://gradoapp.com/assets/logo_green.png');		
+	$("#navigation-reveal").attr('src', 'https://grado-website.herokuapp.com/assets/icon_menu.png');	
+	$("#navigation-logo-mob").attr('src', 'https://grado-website.herokuapp.com/assets/logo_green.png');		
 				
 	$("#navigation-reveal").click(function() {
 		togglemenu();
