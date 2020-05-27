@@ -17,8 +17,8 @@
 		</div>
 		<div class="col-sm-9 col-md-9 col-lg-9" align="right">
 			<span id="navigation-items">
-				<a href="https://grado-website.herokuapp.com/gradtag" alt"gradtag tagging widget" class="navigation-button">gradtag</a>
-				<a href="https://grado-website.herokuapp.com/contact" alt"contact us" class="navigation-button">contact us</a>
+				<a href="https://grado-website.herokuapp.com/gradtag.php" alt"gradtag tagging widget" class="navigation-button">gradtag</a>
+				<a href="https://grado-website.herokuapp.com/contact.php" alt"contact us" class="navigation-button">contact us</a>
 				
 			</span>
 			<div class="navigation-action" id="navigation-action" style="margin-left:10px;">get the app</div>
@@ -33,8 +33,8 @@
 			<img id="navigation-reveal" class="navigation-reveal" src="" alt="menu reveal grado">
 		</div>
 		<div id="nagivation-menu" class="navigation-mobile-menu">
-			<div class="navigation-menu-item"><a href="http://gradoapp.com/gradtag" alt"gradtag" style="color:#465360;">gradtag</a></div>
-			<div class="navigation-menu-item"><a href="http://gradoapp.com/contact" alt"contact us" style="color:#465360;">contact us</a></div>
+			<div class="navigation-menu-item"><a href="http://gradoapp.com/gradtag.php" alt"gradtag" style="color:#465360;">gradtag</a></div>
+			<div class="navigation-menu-item"><a href="http://gradoapp.com/contact.php" alt"contact us" style="color:#465360;">contact us</a></div>
 			<div class="navigation-menu-action">
 				<div class="navigation-action" id="navigation-action-mob" style="width:90%;">get the app</div>
 			</div>
